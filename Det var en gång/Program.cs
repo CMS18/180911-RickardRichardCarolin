@@ -20,12 +20,17 @@ namespace Det_var_en_gång
             string ord4 = Console.ReadLine();
             Console.WriteLine("vart bor du?");
             string stad = Console.ReadLine();
-            Console.WriteLine("Det var en grabb, han bodde i staden," + stad);
+            Console.Clear();
+
+            Console.WriteLine("Det var en grabb, han bodde i staden, " + stad);
             Console.WriteLine("Han var många år gammal och hans bästa vän hade ett namn");
             Console.WriteLine("Vännen " + namn +  " var lika många år gammal som grabben");
             
             Console.WriteLine("Han äskade " + ord + " och hatade " + ord2);
             Console.WriteLine("Sen ramla han från en " + ord4);
+
+
+            Console.WriteLine("Snipp snapp, så var sagan slut!");
         }
     }
 }
