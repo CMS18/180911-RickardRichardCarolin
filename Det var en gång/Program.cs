@@ -10,6 +10,7 @@ namespace Det_var_en_gång
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Det var en grabb, han bodde i staden.");
         }
     }
 }
