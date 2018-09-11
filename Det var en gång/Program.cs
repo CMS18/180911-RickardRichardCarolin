@@ -10,11 +10,13 @@ namespace Det_var_en_gång
     {
         static void Main(string[] args)
         {
+            string namn = "";
             Console.WriteLine("Det var en grabb, han bodde i staden.");
             Console.WriteLine("Han var många år gammal och hans bästa vän hade ett namn");
-            Console.WriteLine("Vännen NamnNamn var lika många år gammal som grabben");
-            string ord = "";
-            string ord2 = "";
+            Console.WriteLine("Vännen " + namn +  " var lika många år gammal som grabben");
+            string ord = "hattar";
+            string ord2 = "mössor";
+            
             Console.WriteLine("Han äskade " + ord + " och hatade " + ord2);
         }
     }
