@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Det_var_en_gång
 {
-    class Program
+    class del3
     {
-        static void Main(string[] args)
+        public static void SkrivUtMening3()
         {
-
-            
+            Console.WriteLine("");
         }
     }
 }
