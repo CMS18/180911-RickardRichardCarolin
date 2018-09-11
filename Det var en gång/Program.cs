@@ -18,7 +18,7 @@ namespace Det_var_en_gång
             string namn = Console.ReadLine();
             Console.WriteLine("Favoritmöbel?");
             string ord4 = Console.ReadLine();
-            Console.WriteLine("Det var en grabb, han bodde i staden.");
+            Console.WriteLine("vart bor du?");
             string stad = Console.ReadLine();
             Console.WriteLine("Det var en grabb, han bodde i staden," + stad);
             Console.WriteLine("Han var många år gammal och hans bästa vän hade ett namn");
